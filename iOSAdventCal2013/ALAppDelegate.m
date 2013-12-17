@@ -12,6 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
+    
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    [userDefaults setObject:version
+                     forKey:@"version"];
+    
+    NSDate* now = [[NSDate alloc] initWithTimeIntervalSinceNow:0];
+    [userDefaults setObject:[now descriptionWithLocale:[NSLocale currentLocale]]
+                     forKey:@"lastLaunched"];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

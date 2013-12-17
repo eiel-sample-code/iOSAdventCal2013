@@ -19,6 +19,7 @@
 		909C506F18603FFA00E71EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909C505718603FFA00E71EBC /* UIKit.framework */; };
 		909C507718603FFA00E71EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 909C507518603FFA00E71EBC /* InfoPlist.strings */; };
 		909C507918603FFA00E71EBC /* iOSAdventCal2013Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909C507818603FFA00E71EBC /* iOSAdventCal2013Tests.m */; };
+		909C5083186041C600E71EBC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 909C5082186041C600E71EBC /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		909C507418603FFA00E71EBC /* iOSAdventCal2013Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSAdventCal2013Tests-Info.plist"; sourceTree = "<group>"; };
 		909C507618603FFA00E71EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		909C507818603FFA00E71EBC /* iOSAdventCal2013Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAdventCal2013Tests.m; sourceTree = "<group>"; };
+		909C5082186041C600E71EBC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				909C506218603FFA00E71EBC /* ALAppDelegate.h */,
 				909C506318603FFA00E71EBC /* ALAppDelegate.m */,
 				909C506518603FFA00E71EBC /* Images.xcassets */,
+				909C5082186041C600E71EBC /* Settings.bundle */,
 				909C505A18603FFA00E71EBC /* Supporting Files */,
 			);
 			path = iOSAdventCal2013;
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				909C505E18603FFA00E71EBC /* InfoPlist.strings in Resources */,
+				909C5083186041C600E71EBC /* Settings.bundle in Resources */,
 				909C506618603FFA00E71EBC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
